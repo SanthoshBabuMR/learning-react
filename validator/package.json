@@ -1,0 +1,16 @@
+{
+  "name": "learning-react-validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "watch": {
+    "compile": "./jsx/*.js"
+  },
+  "scripts": {
+    "compile": "babel --plugins transform-react-jsx jsx/app.jsx -o js/app.js",
+    "watch": "watch 'npm run compile' ./jsx/",
+    "start": "npm run watch"
+  }
+}
