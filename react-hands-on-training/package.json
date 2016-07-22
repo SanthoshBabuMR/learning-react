@@ -1,0 +1,22 @@
+{
+  "name": "react-hands-on-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "browserify": {
+    "transform": ["babelify"]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browserify index.js -o dist/build.js"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
+  }
+}
