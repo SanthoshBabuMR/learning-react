@@ -5,22 +5,7 @@ Exploring react Library
 * local CDN server [http://localhost:43210/](http://localhost:43210/)
 * ensure the following npm packages are avaialbe
 ```bash
-npm i http-server -g
-```
-```bash
-npm i concurrently -g
-```
-```bash
-npm i babel-cli -g
-```
-```bash
-npm i babel-plugin-transform-react-jsx -g
-```
-```bash
-npm i watch -g
-```
-```bash
-npm i open -g
+npm i http-server concurrently babel-cli babel-plugin-transform-react-jsx watch open -g
 ```
 
 **Launching server from grunt**
